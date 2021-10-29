@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+</head>
+<style>
+    #total-amount {
+        outline: none;
+        border: none;
+        font-size: large;
+        width: 10em;
+    }
+</style>
+<body>
+    <main class="section">
+        <h1>Expense Tracker</h1>
+        <h2>
+            <button id="increase">+</button>
+            <div id="total-amount">5000</div>
+            <button id="decrease">-</button>
+        </h2>
+        <ul></ul>
+        <div class="transactions">
+            <label for="add-new-line">For what:</label>
+            <input type="text" id="add-new-line">
+            <label for="add-new-amount">Total Amount:</label>
+            <input type="number" id="add-new-amount">   
+            <button id="add-btn">Add</button>
+        </div>
+    </main>
+<script src="app.js"></script>
+</body>
+</html>
